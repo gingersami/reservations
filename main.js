@@ -20,12 +20,3 @@ var claimReservation = function () {
 claimReservation(name);
 
 
-
-var tipJar = {
-  coinCount: 20,
-  tip: function () {
-    this.coinCount += 1;
-  },
-  stealCoins: function(num){
-    this.coinCount -= num
-  }
